@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C10C7B3F-6EB6-46B9-973C-0EED4345C168}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{66B4D1AC-B2D5-4C56-906F-4BF3D5218EC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "simples", "simples", "{ED5AE819-9261-4D98-9AF8-987FC6E214E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceMock", "src\ServiceMock\ServiceMock.csproj", "{8D550509-FC22-422E-A740-3EFCC5215ACC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceMock.Tests", "tests\ServiceMock.Tests\ServiceMock.Tests.csproj", "{33AD01E2-3638-47FC-B82A-30083B2D6245}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotesService.Tests", "simples\NotesService.Tests\NotesService.Tests.csproj", "{F9842183-4924-4794-B663-53BD2E0ED76F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8D550509-FC22-422E-A740-3EFCC5215ACC} = {C10C7B3F-6EB6-46B9-973C-0EED4345C168}
+		{33AD01E2-3638-47FC-B82A-30083B2D6245} = {66B4D1AC-B2D5-4C56-906F-4BF3D5218EC7}
+		{F9842183-4924-4794-B663-53BD2E0ED76F} = {ED5AE819-9261-4D98-9AF8-987FC6E214E0}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D550509-FC22-422E-A740-3EFCC5215ACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D550509-FC22-422E-A740-3EFCC5215ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D550509-FC22-422E-A740-3EFCC5215ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D550509-FC22-422E-A740-3EFCC5215ACC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33AD01E2-3638-47FC-B82A-30083B2D6245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33AD01E2-3638-47FC-B82A-30083B2D6245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33AD01E2-3638-47FC-B82A-30083B2D6245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33AD01E2-3638-47FC-B82A-30083B2D6245}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9842183-4924-4794-B663-53BD2E0ED76F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9842183-4924-4794-B663-53BD2E0ED76F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9842183-4924-4794-B663-53BD2E0ED76F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9842183-4924-4794-B663-53BD2E0ED76F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
